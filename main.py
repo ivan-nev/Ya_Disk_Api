@@ -36,7 +36,6 @@ if __name__ == '__main__':
 
     with open('token.txt', 'r',) as file:
         token = file.read()
-    print(token)
     # Получить путь к загружаемому файлу и токен от пользователя
     path_to_file ="/new/test3.txt" # куда загружаем
     filename = ("test/test.txt")  # что и откуда загружаем
